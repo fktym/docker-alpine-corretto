@@ -1,6 +1,6 @@
 FROM fktym/alpine-sdkman:alpine3.9 AS builder
 
-ENV JAVA_VERSION=8.0.202-amzn
+ENV JAVA_VERSION=8.0.212-amzn
 ENV JAVA_HOME=/root/.sdkman/candidates/java/$JAVA_VERSION
 ENV MAVEN_VERSION=3.6.0
 ENV MAVEN_HOME=/root/.sdkman/candidates/maven/$MAVEN_VERSION

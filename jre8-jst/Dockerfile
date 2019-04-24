@@ -1,6 +1,6 @@
 FROM fktym/alpine-sdkman:alpine3.9 AS builder
 
-ARG JAVA_VERSION=8.0.202-amzn
+ARG JAVA_VERSION=8.0.212-amzn
 ENV JAVA_HOME=/root/.sdkman/candidates/java/$JAVA_VERSION
 
 SHELL ["/bin/bash", "-c"]
